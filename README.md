@@ -1,4 +1,4 @@
-<h1>Azure Virtual Network / VM Creation and Network Monitor</h1>
+<h1>Azure Virtual Network / VM Creation and Network Monitoring</h1>
 
 
 <h2>Description</h2>
