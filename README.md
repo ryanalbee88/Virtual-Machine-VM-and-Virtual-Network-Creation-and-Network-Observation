@@ -1,3 +1,5 @@
+(https://imgur.com/69fQ4R2) 
+
 <h1>Azure Virtual Network / VM Creation and Network Monitoring</h1>
 
 
