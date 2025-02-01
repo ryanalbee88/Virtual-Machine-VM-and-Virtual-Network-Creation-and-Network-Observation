@@ -1,4 +1,4 @@
-<img src="https://imgur.com/a/jzATqpj" alt="VM/VN Logo"/>
+![global-network-team-observing-digital-world-map_1247666-11470](https://github.com/user-attachments/assets/d9bfba31-8c53-44ae-8e55-91f498fcc974)
 
 <h1>Azure Virtual Network / VM Creation and Network Monitoring</h1>
 
