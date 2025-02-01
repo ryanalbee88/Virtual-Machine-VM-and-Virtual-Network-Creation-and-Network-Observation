@@ -1,4 +1,4 @@
-(https://imgur.com/69fQ4R2) 
+<img src="https://imgur.com/69fQ4R2" alt="VM/VN Logo"/>
 
 <h1>Azure Virtual Network / VM Creation and Network Monitoring</h1>
 
