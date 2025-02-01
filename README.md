@@ -1,5 +1,3 @@
-# Virtual-Machine-VM-/-Virtual-Network-Creation-And-Network-Observation
-
 <h1>Azure Virtual Network / VM Creation and Network Monitor</h1>
 
 
