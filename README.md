@@ -29,13 +29,11 @@ In Microsoft Azure You have to create 2 new Virtuals Machines that run on the sa
 
 ![Screenshot (15)](https://github.com/user-attachments/assets/a61aae6a-806d-4787-bd0c-da32b8f89394)
 
-
 <h2> Virtual Network (VN) Creation </h2>
 
 ![Screenshot (32)](https://github.com/user-attachments/assets/246d8973-7429-4d39-aeb8-d39bc9bc526b)
 
-
-
+<h2> Virtual Machine (VM) Creation/Connection </h2>
 
 ![Screenshot (33)](https://github.com/user-attachments/assets/64485b6e-66f6-45db-abbc-66087fb3388f)
 
@@ -43,11 +41,7 @@ In Microsoft Azure You have to create 2 new Virtuals Machines that run on the sa
 
 ![Screenshot (35)](https://github.com/user-attachments/assets/3de820ae-d330-403b-8f68-5694ac21db6c)
 
-
-
-
-
-
+<h2> Network Observation </h2>
 
 ![Screenshot (36)](https://github.com/user-attachments/assets/0b54a7dd-9cdb-4c15-9328-64d2c66d01a9)
 
