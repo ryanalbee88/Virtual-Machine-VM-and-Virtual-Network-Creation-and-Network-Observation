@@ -21,6 +21,7 @@ In Microsoft Azure You have to create 2 new Virtuals Machines that run on the sa
 - <b>Windows 10 Professional</b>
 - <b>Ubuntu 24.04</b>
 
+<h2> Resource Group Creation </h2>
 
 ![Screenshot (14)](https://github.com/user-attachments/assets/64fc4a85-b446-443a-adc2-cebd4ad2c408)
 
