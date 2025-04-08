@@ -39,15 +39,23 @@ In Microsoft Azure You have to create 2 new Virtuals Machines that run on the sa
 
 ![Screenshot (32)](https://github.com/user-attachments/assets/246d8973-7429-4d39-aeb8-d39bc9bc526b)
 
-- <b>Now we are going to create a Virtual Network (VN), First use the Azure search bar and type in Virtual Network. Then when you are on the VN portal you can press the create button in the center, As shown in the picture you can leave most of the settings default unless you want something more advanced / specific. Make a name for your Virtual Network, As shown above i named mine VNET. Then you can press review + create on the bottom right corner, once complete give Azure up to 2 minutes to create your virtual network.</b>
+- <b>Now we are going to create a Virtual Network (VN), First use the Azure search bar and type in Virtual Network. Then when you are on the VN portal you can press the create button in the center, As shown in the picture you can leave most of the settings default unless you want something more advanced / specific. When you add Virtual Machines to the Network they need to be in the same time zone, so make sure you remember what timezone you created your Virtual Network in. Then Make a name for your Virtual Network, As shown above i named mine VNET. Then you can press review + create on the bottom right corner, once complete give Azure up to 2 minutes to create your virtual network.</b>
 
 <h2> Virtual Machine (VM) Creation/Connection </h2>
 
 ![Screenshot (33)](https://github.com/user-attachments/assets/64485b6e-66f6-45db-abbc-66087fb3388f)
 
+- <b>We are almost at Network Observation but first we need to create a Virtual Machine (VM). First use the Azure search bar and type in Virtual Machine, once located you can press the create button in the center. In the picture shown above i am going to create a Linux Virtual Machine, I put this Virtual Machine in the same timezone as my Virtual Network so that in the next picture i can add my Virtual Machine to my Network. If you want more processing power than you can go down to size on the bottom as shown in the picture above, the amount of VCPU's and RAM determine how fast or slow the Machine will run, I kept mine with the recommended size of 2 VCPU's and 8 GB's of RAM.</b>
+
 ![Screenshot (34)](https://github.com/user-attachments/assets/55ca5a8c-65fa-423e-9fea-332d2ce7a3ce)
 
+- <b>In the picture shown above we are going to add our Virtual Machine to our Virtual Network, you don't need to touch the disk settings unless you want more storage than already allocated. You are going to press on the Virtual Network drop down menu and you should see your Virtual Network as an option to click. Now that you have selected your Virtual Network now you can press review + create, when creating a Virtual Machine with Azure please give up to 2 minutes for the Machine to be created.</b>
+
 ![Screenshot (35)](https://github.com/user-attachments/assets/3de820ae-d330-403b-8f68-5694ac21db6c)
+
+- <b>In this picture shown above i am showing what it would look like once the computer is created in the Azure Portal, i am showing a Windows 10 Virtual Machine in the picture that is on the same network as the Linux Virtual Machine we just created. Both Linux and Windows Machines look the same on the Portal, But when you press on the 2 different machines they have different IP's and Operating Systems. I created both Windows and Linux Virtual Machines on the same Virtual Network for the commands we are going to be running in the Pictures below.</b>
+
+- <b>To Connect to your Virtual Machine you want to click on the Virtual Machine in your Azure Portal, Then as shown above you should have a private IP address for you Virtual Machine. This is the IP address you are going to copy and paste into your remote connection tool to connect to your newly created Virtual Machine.</b>
 
 <h2> Network Observation </h2>
 
