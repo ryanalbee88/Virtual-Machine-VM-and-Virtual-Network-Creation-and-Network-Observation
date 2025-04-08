@@ -2,8 +2,6 @@
 
 ![408780434-d7f130f8-0204-4b0a-afd7-9b599cbf88ff](https://github.com/user-attachments/assets/e85c0b09-04c4-4a75-be67-48e9c052c11b)
 
-
-<h1>Azure Virtual Network / VM Creation and Network Monitoring</h1>
 <h2>Description</h2>
 In Microsoft Azure You have to create 2 new Virtuals Machines that run on the same Virtual Network. Through Wireshark we are able to monitor the Network Traffic between the 2 Virtual Machines or any website you would like, Note this only monitors the Traffic between your Computer and the target IP address like a website or other Virtual Machine 
 <br />
