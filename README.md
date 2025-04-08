@@ -1,4 +1,5 @@
 
+![408780434-d7f130f8-0204-4b0a-afd7-9b599cbf88ff](https://github.com/user-attachments/assets/c6eac6c5-3936-4e86-a641-96a8c415f900)
 
 <h1>Azure Virtual Network / VM Creation and Network Monitoring</h1>
 <h2>Description</h2>
