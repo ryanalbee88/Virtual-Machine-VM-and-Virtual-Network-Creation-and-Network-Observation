@@ -11,10 +11,10 @@ In Microsoft Azure You have to create 2 new Virtuals Machines that run on the sa
 
 <h2>Environments and Utilities Used</h2>
 
-1. <b>Microsoft Azure</b>
-2. <b>Remote Desktop Connection</b> 
-3. <b>Wireshark</b>
-4. <b>PowerShell</b>
+- <b>Microsoft Azure</b>
+- <b>Remote Desktop Connection</b> 
+- <b>Wireshark</b>
+- <b>PowerShell</b>
 
 <h2>Operating Systems Used </h2>
 
