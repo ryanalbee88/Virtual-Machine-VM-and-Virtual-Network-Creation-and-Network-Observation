@@ -61,17 +61,25 @@ In Microsoft Azure You have to create 2 new Virtuals Machines that run on the sa
 
 - <b> Now that we have connected to the Windows 10 Virtual Machine i installed WireShark for our Network Oberservation, I created 2 Virtual Machines so they both have different IP addresses. In my example my Windows 10 Virtual Machine's IP was 10.0.0.4 and my Linux Virtual Machine's IP was 10.0.0.5. As well both Machines are on the same Virtual Network so when you open up your PowerShell on Windows 10 you can ping your Linux Virtual Machine. Then on WireShark you can see all the traffic going from the Windows 10 Virtual Machine to the Linux Virtual Machine.</b>
 
+- <b> On WireShark go to the search bar on the top of the program and type in ICMP to look at the traffic between both Virtual Machines when pinging
+
 ![Screenshot (37)](https://github.com/user-attachments/assets/578f9562-0d4f-4e01-a791-835f7904e63d)
 
-- <b>In the picture above i am showing what it looks like on the Powershell when you ping another Virtual Machine on your Virtual Network, Or you can ping sites like google.com to see if they are up and running. For example, If you ping your Linux VM from your Windows VM and it says "Timed Out" That means your Virtual Machine is not Online or Running.</b>
+- <b>In the picture above i am showing what it looks like on the Powershell when you ping another Virtual Machine on your Virtual Network, Or you can ping sites like google.com to see if they are up and running. For example, If you ping your Linux VM from your Windows VM and it says "Request Timed Out" That means your Virtual Machine is not Online or Running.</b>
 
 - <b>If you want your ping to go infinitely until you stop pinging you would want to add " -t " to the end of the ping for it to be continuous. For example, ping 10.0.0.5 -t </b>
 
 ![Screenshot (38)](https://github.com/user-attachments/assets/16f612ee-b8c4-434e-8b82-e3bc772c82f6)
 
+- <b>In the picture above we are going to add a Inbound Security Protocol on my Linux Virtual Machine so that while i am pinging the Linux Machine off of my Windows Virtual Machine it will stop the traffic between the 2 Machines, And i am going to show you what that looks like below!</b>
+
 ![Screenshot (39)](https://github.com/user-attachments/assets/78f63411-abf3-4862-86ba-2f12ba153856)
 
+- <b>You are going to click on your Linux Virtual Machine and on the left side there should be a drop down called settings. In the settings tab you are going to click on Inbound Security Rules and click Add Rule. As shown in the picture above you are going to want the Source Port Ranges and Destination Port Ranges set to * which means any port i can find it will block it. Then the rule's protocol has to be on ICMPv4, the action set to Deny, and the Priority set to 290. When all is said and done you can press add and this will block your Windows Virtual Machine from Pinging your Linux Virtual Machine.</b>
+
 ![Screenshot (40)](https://github.com/user-attachments/assets/bc58b358-1d8e-49fc-b98d-21dfa94c19dd)
+
+- <b>Now that you have added the Inbound Security rule it is now listed as a rule to deny inbound traffic from ICMPv4. And if you look on the right side of the picture shown above you can see the traffic from my Windows 10 Virtual Machine is being blocked by the Linux Virtual Machine, which doesn't allow me to ping the Linux Machine anymore resulting is "Request Timed Out".</b>
 
 ![Screenshot (41)](https://github.com/user-attachments/assets/fb113d00-25f2-4473-bb4f-32b1d89cb325)
 
