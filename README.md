@@ -25,15 +25,15 @@ In Microsoft Azure You have to create 2 new Virtuals Machines that run on the sa
 
 ![Screenshot (14)](https://github.com/user-attachments/assets/64fc4a85-b446-443a-adc2-cebd4ad2c408)
 
-The first step is Resource Group Creation, To create a resource group you must be signed into the Azure portal. Then you can use the search bar in the portal to search for the resource group tab. Then you press the Blue Create button in the middle of the screen. You can name this resource group anything you want but rememeber what you name the resource group.
+- <b>The first step is Resource Group Creation, To create a resource group you must be signed into the Azure portal. Then you can use the search bar in the portal to search for the resource group tab. Then you press the Blue Create button in the middle of the screen. You can name this resource group anything you want but rememeber what you name the resource group.</b>
 
 ![Screenshot (16)](https://github.com/user-attachments/assets/43f70539-1f0f-4fdf-8282-09188f2f00da)
 
-Once you Name the resource group what you want it to be called then you can press finalize and create, It might take up to 60 seconds for the resource group to be created.
+- <b>Once you Name the resource group what you want it to be called then you can press finalize and create, It might take up to 60 seconds for the resource group to be created.</b>
 
 ![Screenshot (15)](https://github.com/user-attachments/assets/a61aae6a-806d-4787-bd0c-da32b8f89394)
 
-This is what it will look like when you create your first resource group!
+- <b>This is what it will look like when you create your first resource group!</b>
 
 <h2> Virtual Network (VN) Creation </h2>
 
