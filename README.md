@@ -59,13 +59,13 @@ In Microsoft Azure You have to create 2 new Virtuals Machines that run on the sa
 
 ![Screenshot (36)](https://github.com/user-attachments/assets/0b54a7dd-9cdb-4c15-9328-64d2c66d01a9)
 
-- <b> Now that we have connected to the Windows 10 Virtual Machine i installed WireShark for our Network Oberservation, I created 2 Virtual Machines so they both have different IP addresses. In my example my Windows 10 Virtual Machine's IP was 10.0.0.4 and my Linux Virtual Machine's IP was 10.0.0.5. As well both Machines are on the same Virtual Network so when you open up your PowerShell on Windows 10 you can ping your Linux Virtual Machine. Then on WireShark you can see all the traffic going from the Windows 10 Virtual Machine to the Linux Virtual Machine.
+- <b> Now that we have connected to the Windows 10 Virtual Machine i installed WireShark for our Network Oberservation, I created 2 Virtual Machines so they both have different IP addresses. In my example my Windows 10 Virtual Machine's IP was 10.0.0.4 and my Linux Virtual Machine's IP was 10.0.0.5. As well both Machines are on the same Virtual Network so when you open up your PowerShell on Windows 10 you can ping your Linux Virtual Machine. Then on WireShark you can see all the traffic going from the Windows 10 Virtual Machine to the Linux Virtual Machine.</b>
 
 ![Screenshot (37)](https://github.com/user-attachments/assets/578f9562-0d4f-4e01-a791-835f7904e63d)
 
-- <b>In the picture above i am showing what it looks like on the Powershell when you ping another Virtual Machine on your Virtual Network, Or you can ping sites like google.com to see if they are up and running. For example, If you ping your Linux VM from your Windows VM and it says "Timed Out" That means your Virtual Machine is not Online or Running.
+- <b>In the picture above i am showing what it looks like on the Powershell when you ping another Virtual Machine on your Virtual Network, Or you can ping sites like google.com to see if they are up and running. For example, If you ping your Linux VM from your Windows VM and it says "Timed Out" That means your Virtual Machine is not Online or Running.</b>
 
-- <b>If you want your ping to go infinitely until you stop pinging you would want to add " -t " to the end of the ping for it to be continuous. For example, ping 10.0.0.5 -t 
+- <b>If you want your ping to go infinitely until you stop pinging you would want to add " -t " to the end of the ping for it to be continuous. For example, ping 10.0.0.5 -t </b>
 
 ![Screenshot (38)](https://github.com/user-attachments/assets/16f612ee-b8c4-434e-8b82-e3bc772c82f6)
 
