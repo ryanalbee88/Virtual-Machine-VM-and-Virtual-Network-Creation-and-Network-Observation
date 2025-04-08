@@ -11,7 +11,7 @@ In Microsoft Azure You have to create 2 new Virtuals Machines that run on the sa
 
 <h2>Environments and Utilities Used</h2>
 
-- <b>Microsoft Azure</b>
+1. <b>Microsoft Azure</b>
 - <b>Remote Desktop Connection</b> 
 - <b>Wireshark</b>
 - <b>PowerShell</b>
