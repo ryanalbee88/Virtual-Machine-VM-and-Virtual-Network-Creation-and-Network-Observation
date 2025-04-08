@@ -33,11 +33,13 @@ In Microsoft Azure You have to create 2 new Virtuals Machines that run on the sa
 
 ![Screenshot (15)](https://github.com/user-attachments/assets/a61aae6a-806d-4787-bd0c-da32b8f89394)
 
-- <b>This is what it will look like when you create your first resource group!</b>
+- <b>This is what it will look like when you create your first resource group! You can create as many as you need for any projects.</b>
 
 <h2> Virtual Network (VN) Creation </h2>
 
 ![Screenshot (32)](https://github.com/user-attachments/assets/246d8973-7429-4d39-aeb8-d39bc9bc526b)
+
+- <b>Now we are going to create a Virtual Network (VN), First use the Azure search bar and type in Virtual Network. Then when you are on the VN portal you can press the create button in the center, As shown in the picture you can leave most of the settings default unless you want something more advanced / specific. Make a name for your Virtual Network, As shown above i named mine VNET. Then you can press review + create on the bottom right corner, once complete give Azure up to 2 minutes to create your virtual network.</b>
 
 <h2> Virtual Machine (VM) Creation/Connection </h2>
 
