@@ -84,12 +84,16 @@ In Microsoft Azure You have to create 2 new Virtuals Machines that run on the sa
 ![Screenshot (41)](https://github.com/user-attachments/assets/fb113d00-25f2-4473-bb4f-32b1d89cb325)
 
 - <b>In the picture above i am trying to SSH into my Linux Virtual Machine, In WireShark we can see the SSH traffic just by typing in ssh into the search bar via WireShark.
-- <b>To SSH from Your Windows Virtual Machine you are going to open up Powershell or Command Prompt in Administrator Mode, then you are going to type in " ssh username@IP address ". So for example in the picture above to connect to my Linux SSH I typed " ssh labuser@10.0.0.5 ".
+- <b>To SSH from Your Windows Virtual Machine you are going to open up Powershell or Command Prompt in Administrator Mode, then you are going to type in " ssh username@IP address ". So for example in the picture above to connect to my Linux SSH I typed " ssh labuser@10.0.0.5 ".</b>
 
 ![Screenshot (42)](https://github.com/user-attachments/assets/0c07d3d9-fd11-4cc0-870b-4d79450b02cd)
 
-- <b>In This picture i am requesting a new IP address for my Virtual Computer from the DHCP server on the network. For example in the picture above in PowerShell i wrote " ipconfig /renew ", Which sends a command through the DHCP server which you can view the traffic by typing in "dhcp" in WireShark.
+- <b>In This picture i am requesting a new IP address for my Virtual Computer from the DHCP server on the network. For example in the picture above in PowerShell i wrote " ipconfig /renew ", Which sends a command through the DHCP server which you can view the traffic by typing in "dhcp" in WireShark.</b>
 
 ![Screenshot (43)](https://github.com/user-attachments/assets/97bbbbb6-a433-4102-ba1d-0f48bcc34ca4)
 
+- <b>Now we are going to be Look through the DNS traffic through WireShark, When you first type in dns into WireShark there might be a bit of traffic depending on what applications are running on your Virtual Machine. Then When you go into PowerShell you can type in " nslookup " on any website to find the domains IP Address and DNS Records. In the picture above i just google.com as an example, i typed in " nslookup google.com " which gave me the list of Addresses.</b>
+
 ![Screenshot (44)](https://github.com/user-attachments/assets/36fc46a6-b99a-4005-9ca2-6a0f056b198c)
+
+- <b>Last But not least we are looking at RDP Traffic which shows the constant flow of data traffic being sent and recieved. To filter for RDP traffic you type in " tcp.port==3389 " in WireShark to see the constant flow of data on your Windows or Linux Virtual Machine. 
