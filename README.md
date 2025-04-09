@@ -96,4 +96,4 @@ In Microsoft Azure You have to create 2 new Virtuals Machines that run on the sa
 
 ![Screenshot (44)](https://github.com/user-attachments/assets/36fc46a6-b99a-4005-9ca2-6a0f056b198c)
 
-- <b>Last But not least we are looking at RDP Traffic which shows the constant flow of data traffic being sent and recieved. To filter for RDP traffic you type in " tcp.port==3389 " in WireShark to see the constant flow of data on your Windows or Linux Virtual Machine. 
+- <b>Last But not least we are looking at RDP Traffic which shows the constant flow of data traffic being sent and recieved. To filter for RDP traffic you type in " tcp.port==3389 " in WireShark to see the constant flow of data on your Windows or Linux Virtual Machine.</b>
