@@ -83,7 +83,12 @@ In Microsoft Azure You have to create 2 new Virtuals Machines that run on the sa
 
 ![Screenshot (41)](https://github.com/user-attachments/assets/fb113d00-25f2-4473-bb4f-32b1d89cb325)
 
+- <b>In the picture above i am trying to SSH into my Linux Virtual Machine, In WireShark we can see the SSH traffic just by typing in ssh into the search bar via WireShark.
+- <b>To SSH from Your Windows Virtual Machine you are going to open up Powershell or Command Prompt in Administrator Mode, then you are going to type in " ssh username@IP address ". So for example in the picture above to connect to my Linux SSH I typed " ssh labuser@10.0.0.5 ".
+
 ![Screenshot (42)](https://github.com/user-attachments/assets/0c07d3d9-fd11-4cc0-870b-4d79450b02cd)
+
+- <b>In This picture i am requesting a new IP address for my Virtual Computer from the DHCP server on the network. For example in the picture above in PowerShell i wrote " ipconfig /renew ", Which sends a command through the DHCP server which you can view the traffic by typing in "dhcp" in WireShark.
 
 ![Screenshot (43)](https://github.com/user-attachments/assets/97bbbbb6-a433-4102-ba1d-0f48bcc34ca4)
 
